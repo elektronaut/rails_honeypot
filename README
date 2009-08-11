@@ -1,0 +1,19 @@
+  --~~ Honeypot fo rRails ~~--
+  
+  Honeypot is spam protection. Your from has a e-mail field. It is
+  hidden with CSS. Only spam-bots are inhuman enough to fill out that
+  field. If it has data in it, the request is terminated.
+  
+  Yay, easy spam protection!
+  
+  
+  --~~ Installing ~~--
+  
+  1. ./script/plugin install git://github.com/augustl/rails_honeypot.git
+  2. Add ".attack_of_the_titans { display:none }" to your CSS.
+  
+  
+  
+  
+  
+  Written by August Lilleaas.
