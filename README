@@ -10,7 +10,8 @@
   --~~ Installing ~~--
   
   1. ./script/plugin install git://github.com/augustl/rails_honeypot.git
-  2. Add ".attack_of_the_titans { display:none }" to your CSS.
+  2. Add <%= f.honeypot %> to your `form_for`-forms.
+  3. Add ".attack_of_the_titans { display:none }" to your CSS.
   
   
   
