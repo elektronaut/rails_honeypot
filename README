@@ -1,4 +1,4 @@
-  --~~ Honeypot fo rRails ~~--
+  --~~ Honeypot for Rails ~~--
   
   Honeypot is spam protection. Your from has a e-mail field. It is
   hidden with CSS. Only spam-bots are inhuman enough to fill out that
@@ -14,7 +14,8 @@
   3. Add ".attack_of_the_titans { display:none }" to your CSS.
   
   
-  
+  You can configure the name of the hidden form field in an initializer:
+  Honeypot.form_field = :email
   
   
   Written by August Lilleaas.
